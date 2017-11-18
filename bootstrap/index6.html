@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan Bootstrap</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+</head>
+<body>
+	<!-- Form -->
+	<div class="container">
+ 
+	<form role="form">
+		<div class="form-group">
+			<label for="nama">Nama</label>
+			<input type="text" class="form-control" id="nama" placeholder="Masukan Nama">
+			<span class="help-block">Masukan Nama Disini</span>
+		</div>
+
+		<div class="form-group">
+			<label for="alamat">Nama</label>
+			<input type="text" class="form-control" id="alamat" placeholder="Masukan Alamat">
+		</div>
+
+		<div class="form-group">
+			<label for="pesan">Pesan</label>
+			<textarea class="form-control" rows="3"></textarea>
+		</div>
+
+		<div class="form-group">
+			<label>Default Checkbox dan Radiobutton</label>
+			<div class="checkbox"><input type="checkbox" value="" checked>Opsi 1</div>
+			<div class="checkbox"><input type="checkbox" value="" >Opsi 2</div>
+			<div class="radio"><input type="radio" name="radioOption" id="opsi1" value="" checked>Opsi 1</div>
+			<div class="radio"><input type="radio" name="radioOption" id="opsi2" value="">Opsi 2</div>
+		</div>
+
+		<div class="form-group">
+			<label>Inline Checkbox dan Radiobutton</label>
+			<div class="checkbox-inline"><input type="checkbox" value="" checked>Opsi 1</div>
+			<div class="checkbox-inline"><input type="checkbox" value="">Opsi 2</div>
+			<div class="radio-inline"><input type="radio" name="radioOption" id="opsi1" value="" checked>Opsi 1</div>
+			<div class="radio-inline"><input type="radio" name="radioOption" id="opsi2" value="">Opsi 2</div>
+		</div>
+
+		<div class="form-group">
+			<label for="single_select">Pilihan</label>
+			<select id="single_select" class="form-control">
+				<option>1</option>
+				<option>2</option>
+				<option selected>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+		</div>
+
+		<div class="form-group">
+			<label for="multi_select">Pilihan</label>
+			<select multiple id="multi_select" class="form-control">
+				<option>1</option>
+				<option>2</option>
+				<option selected>3</option>
+				<option selected>4</option>
+				<option>5</option>
+			</select>
+		</div>
+
+		
+
+		<button type="submit" class="btn btn-default">Submit</button>
+	</form>
+</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
